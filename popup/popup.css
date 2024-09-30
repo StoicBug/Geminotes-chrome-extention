@@ -1,0 +1,8 @@
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .hidden {
+    display: none;
+  }

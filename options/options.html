@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firestore Note Saver Options</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="options.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-4">
+  <div class="container mx-auto">
+    <h1 class="text-2xl font-bold mb-4">Firestore Note Saver Options</h1>
+    <div id="login-status" class="mb-4"></div>
+    <button id="login-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Login with Google
+    </button>
+    <div id="options-form" class="mt-4 hidden">
+      <h2 class="text-xl font-semibold mb-2">Default Tags</h2>
+      <input type="text" id="default-tags" class="w-full p-2 border rounded" placeholder="Enter default tags (comma-separated)">
+      <button id="save-options" class="mt-2 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+        Save Options
+      </button>
+    </div>
+  </div>
+  <script src="options.js"></script>
+</body>
+</html>

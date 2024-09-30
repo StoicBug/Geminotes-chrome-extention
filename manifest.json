@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+    "name": "Firestore Note Saver",
+    "version": "1.0",
+    "description": "Save selected text as notes to Firestore",
+    "permissions": ["storage", "identity", "contextMenus", "tabs", "activeTab"],
+    "host_permissions": [
+      "https://*.googleapis.com/"
+    ],
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+      }
+    },
+    "options_page": "options/options.html",
+    "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "oauth2": {
+      "client_id": "753192350801-ut5te4gupar85l79539p89bolg4hh5eu.apps.googleusercontent.com",
+      "scopes": [
+        "https://www.googleapis.com/auth/userinfo.email",
+        "https://www.googleapis.com/auth/firebase.database"
+      ]
+    }
+  }
