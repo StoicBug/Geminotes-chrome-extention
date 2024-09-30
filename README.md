@@ -1,7 +1,13 @@
-# Firestore Note Saver - Chrome Extension
+# Geminotes - Chrome Extension
 
 ## Description
-A note-taking tool that allows you to save and organize notes from web pages. You can search your notes, ask questions about them, and improve their clarity and accuracy.
+A Gemini AI-powered note-taking tool that allows you to save and organize notes from web pages. You can search your notes, ask questions about them, and improve their clarity and accuracy.
+
+## Links
+- Chrome Extension Repository: (This repo)
+- Web Application Repository: https://github.com/StoicBug/Geminotes-web-application
+- Blog Post: https://blog.mlnomads.com/aisprint-geminotes
+- Youtube Video Demo: https://www.youtube.com/watch?v=kmNjNefigCE
 
 ## Prerequisites
 - Google Chrome
@@ -41,6 +47,9 @@ A note-taking tool that allows you to save and organize notes from web pages. Yo
    - Click on the extension icon in the Chrome toolbar.
    - Log in with your Google account.
    - Select text on any web page and use the context menu to save it as a note.
+
+## Acknowledgment
+Google AI/ML Developer Programs team supported this work by providing Google Cloud Credit.
 
 ## License
 This project is licensed under the MIT License.
